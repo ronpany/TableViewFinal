@@ -1,0 +1,17 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3/11/2021, 10:01:27 AM
+    Author     : RONNY PANTOJA
+*/
+
+
+.redbutton{
+    -fx-background-color: rgb(168, 254, 170 );
+}
+.redbutton:hover{
+    -fx-background-color: rgb( 110, 179, 218 );
+}

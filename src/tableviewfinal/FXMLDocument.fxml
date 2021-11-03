@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="554.0" prefWidth="983.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tableviewfinal.FXMLDocumentController">
+   <children>
+      <TableView fx:id="table_person" layoutX="305.0" layoutY="111.0" prefHeight="326.0" prefWidth="633.0">
+         <columns>
+            <TableColumn fx:id="id" prefWidth="86.0" text="ID" />
+            
+            <TableColumn fx:id="col_name" prefWidth="172.0" text="Name" />
+            <TableColumn fx:id="col_email" prefWidth="145.0" text="Email" />
+            <TableColumn fx:id="col_address" prefWidth="118.0" text="Address" />
+            <TableColumn fx:id="col_cellphone" prefWidth="111.0" text="Cellphone" />
+         </columns>
+      </TableView>
+      <TextField fx:id="Txt_CC" layoutX="107.0" layoutY="195.0" />
+      <TextField fx:id="Txt_Name" layoutX="107.0" layoutY="246.0" />
+      <TextField fx:id="Txt_Email" layoutX="107.0" layoutY="290.0" />
+      <TextField fx:id="Txt_Address" layoutX="107.0" layoutY="338.0" />
+      <TextField fx:id="Txt_Cellphone" layoutX="107.0" layoutY="393.0" />
+      <Label layoutX="39.0" layoutY="199.0" text="CC:" />
+      <Label layoutX="38.0" layoutY="250.0" text="Name" />
+      <Label layoutX="38.0" layoutY="294.0" text="Email" />
+      <Label layoutX="38.0" layoutY="342.0" text="Address" />
+      <Label layoutX="39.0" layoutY="397.0" text="Cellphone" />
+      <Button fx:id="Btn_Agregar" layoutX="431.0" layoutY="467.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="81.0" text="Agregar" textFill="#b07272" />
+      <Button fx:id="Btn_Eliminar" layoutX="692.0" layoutY="467.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="81.0" text="Eliminar" />
+      <Button fx:id="Btn_Actualizar" layoutX="559.0" layoutY="473.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="81.0" text="Actualizar" />
+      <Label layoutX="376.0" layoutY="24.0" prefHeight="49.0" prefWidth="314.0" text="People Registration" textFill="#65c1dd">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="136.0" fitWidth="135.0" layoutX="105.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@person.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
